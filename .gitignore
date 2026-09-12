@@ -1,0 +1,23 @@
+# --- STM32CubeIDE 编译产物，不要提交 ---
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.cyclo
+
+# --- CubeIDE 本地设置，不要提交 ---
+# 注意：.project / .cproject / .ioc 一定要提交！那是工程定义，别人靠它复现
+.settings/
+.mxproject
+*.launch
+
+# --- 系统垃圾文件 ---
+Thumbs.db
+desktop.ini
+.DS_Store
